@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+/* Utility for container spacing */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
